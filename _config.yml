@@ -1,3 +1,9 @@
-theme: jekyll-theme-minima
-title: Web Development | .NET | Identity
+title: Michael Käsdorf | Web Development
+author: Michael Käsdorf
+email: m_kaesdorf@hotmail.de
 description: Web Development in the realm of .NET & Identity
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: auto
