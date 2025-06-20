@@ -16,5 +16,5 @@ Taken from: [Microsoft Learn: What is Manages Code?](https://learn.microsoft.com
 
 And MSIL - nowadays - is just the same. See the [Stackoverflow question "What is the difference between CIL and MSIL (IL)?"](https://stackoverflow.com/questions/293800/what-is-the-difference-between-cil-and-msil-il) 
 
-## Which Term Should I Use, Then?
+## Which term should I use, then?
 There's an [ECMA Standard (no. 335)](https://ecma-international.org/publications-and-standards/standards/ecma-335/) for the term CIL. So, it's advisable to stick with that.
