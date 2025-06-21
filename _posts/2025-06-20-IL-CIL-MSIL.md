@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "IL & CIL & MSIL"
+title:  "Difference between IL, CIL and MSIL"
 ---
 
 ## Interoperability of .NET
