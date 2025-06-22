@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Understanding The feature switches attribute model in .NET 9"
+title:  "Understanding the feature switches attribute model in .NET 9"
 tags: [".NET 9", "feature switches", ".NET Runtime"]
 ---
 
