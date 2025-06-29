@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cloud-native group chat PoC with multiple AI Agents - Part 1 - Setting up the base"
+title:  "Cloud-native group chat with multiple AI Agents in .NET - Part 1: Setting up"
 tags: [".NET AI Template", "AI Agents"]
 ---
 
