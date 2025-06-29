@@ -1,9 +1,17 @@
 title: Michael Käsdorf | Web Development
-author: Michael Käsdorf
-email: m_kaesdorf@hotmail.de
+author: 
+  name: Michael Käsdorf
+  email: m_kaesdorf@hotmail.de
 description: Software Engineering in the realm of .NET & Identity
 remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
 minima:
   skin: auto
+social_links:
+  - title: Find me on LinkedIn
+    icon: linkedin
+    url: https://www.linkedin.com/in/michael-k%C3%A4sdorf/
+  - title: Find me on GitHub
+    icon: github
+    url: https://github.com/michaelkaesdorf
