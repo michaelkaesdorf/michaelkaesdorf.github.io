@@ -13,6 +13,7 @@ Let's get started by bootstrapping the template exactly as shipped first.
 After installing the template, we walk through the wizard. We create a project called MultiAgentChatPoC with the following configuration:
 
 ![Picture of the VS Wizard](/assets/2025-06-29-group-chat-poc-multiple-ai-agents-dotnet-part-1-setting-up-the-base/vs_wizard_ai_chat_template.png)
+
 Now we create a new repo and push our code.
 
 We will be using Github Models along the way. For this, we first need to create a personal access token (PAT) in github. So, after navigating to github and authenticating, we access Settings -> Developer Settings -> Personal Access Tokens -> Fine-grained Tokens. 
@@ -21,6 +22,7 @@ Here we limit the scope of the PAT to the freshly created repo that we just crea
 ![Screenshot of the repository access settings in github](/assets/2025-06-29-group-chat-poc-multiple-ai-agents-dotnet-part-1-setting-up-the-base/pat_repo_access.png)
 
 There, we scroll down and add read-only access to "Models":
+
 ![Screenshot of PAT access scope](/assets/2025-06-29-group-chat-poc-multiple-ai-agents-dotnet-part-1-setting-up-the-base/pat_scope.png)
 
 Then, we will do as it is being suggested in the readme of the project and add the PAT to the `secrets.json` like that:
