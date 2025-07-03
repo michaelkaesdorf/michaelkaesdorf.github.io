@@ -22,11 +22,11 @@ Now we create a new repo and push our code.
 We will be using Github Models along the way. For this, we first need to create a personal access token (PAT) in github. So, after navigating to github and authenticating, we access Settings -> Developer Settings -> Personal Access Tokens -> Fine-grained Tokens. 
 Here we limit the scope of the PAT to the freshly created repo that we just created:
 
-![Screenshot of the repository access settings in github](/assets/2025-06-29-group-chat-poc-multiple-ai-agents-dotnet-part-1-setting-up-the-base/pat_repo_access.png)
+![Screenshot of the repository access settings in github](/assets/2025-06-29/pat_repo_access.png)
 
 There, we scroll down and add read-only access to "Models":
 
-![Screenshot of PAT access scope](/assets/2025-06-29-group-chat-poc-multiple-ai-agents-dotnet-part-1-setting-up-the-base/pat_scope.png)
+![Screenshot of PAT access scope](/assets/2025-06-29/pat_scope.png)
 
 Now we will need to add the PAT to the secrets of the AppHost-project like that:
 
@@ -38,11 +38,11 @@ Now we will need to add the PAT to the secrets of the AppHost-project like that:
 
 Ok, let's hit start!
 
-![Screenshot of the running app](/assets/2025-06-29-group-chat-poc-multiple-ai-agents-dotnet-part-1-setting-up-the-base/working_app.png)
+![Screenshot of the running app](/assets/2025-06-29/working_app.png)
 
 Great, as we can see, the app starts and we are presented with a chat-like interface. Let's test it by typing something.
 And here is a proof that it is working:
 
-![Screenshot of a working prompt](/assets/2025-06-29-group-chat-poc-multiple-ai-agents-dotnet-part-1-setting-up-the-base/successful_prompt.png)
+![Screenshot of a working prompt](/assets/2025-06-29/successful_prompt.png)
 
-Alright. Now we are set up and ready to go. Here we will end part one. The next step will be to locate the relevant parts in the code and think about how to implement our idea.
+Alright. Now we are set up and ready to go. Here we will end part one. Feels good to have something done. For the next post, we will take a small step back and think about the architecture.
