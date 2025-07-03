@@ -41,7 +41,7 @@ Disadvantages:
 
 ## Deciding for Approach 1
 
-So... I am coming to the conclusion that approach 1 is better. Working around the disadvantaged of approach 2 still required quite some work, and it feels a bit dirty. I don't think there's so much interesting to learn among that road. Furthermore, regarding approach 1: I really like thinking about how to create a more sophisticated, hybrid approach. What I am thinking about, is some form intermediate agent that handles the coordination. This coordinator agent could device which specialst agent(s) should respond and only activate relevant agents based on message content. And so many more things.
+So... I am coming to the conclusion that approach 1 is better. Working around the disadvantages of approach 2 still required quite some work, and it feels a bit dirty. I don't think there's so much interesting to learn among that road. Furthermore, regarding approach 1: I really like thinking about how to create a more sophisticated, hybrid approach. What I am thinking about, is some form intermediate agent that handles the coordination. This coordinator agent could device which specialst agent(s) should respond and only activate relevant agents based on message content. And so many more things.
 
 ### Starting Slowly
 
