@@ -11,13 +11,13 @@ In my life, I find myself often in a situation where I feel some special interes
 
 ## The Problem
 
-Living our life with the social media platforms around us, there's little agency that we can excert when it comes to the ways of their usage. The truth is that platforms like instagram are here to stay and while we - of course - could stay away of them completely (and thus "solve" the problem), we might want to look out for a more moderate approach that still enables us to take part in society; or: where our sub-society of choice plays. And this might be on Instagram. Or Youtube. Or any other social media platform. Abstaining from these platforms can and will lead (in my experience) to social isolation. The problem is, that they are less of "neutral platforms" and more of designed environments which make us the player in a game that a) we did not consciously sign up for and b) we are forced to play by their rules. What I mean by that is that there's an ever increasing divergence between why we think we are visiting the platform and the interest that the platform owners have. We might be thinking that we visit nstagram in order to keep up to date with our friends, yet we stay for the immense dopamine-hits. And there are less and less ways around that. Just recently I restarted using Instagram and could not help but notice that auto-playing videos are omnipresent. Immediately upon opening either the app or the website you will get a video (/ "short" / "reel") playing in your face. Not surprising: you will not find any possibility to deactivate the auto-play feature. You are forced to consume the app's algorithm-curated and hyper-personalized content in this friction-less, unsolicited "feeding".
+Living our life with the social media platforms around us, there's little agency that we can excert when it comes to the ways of their usage. The truth is that platforms like Instagram are here to stay and while we - of course - could stay away of them completely (and thus "solve" the problem), we might want to look out for a more moderate approach that still enables us to take part in society; or: where our sub-society of choice plays. And this might be on Instagram. Or Youtube. Or any other social media platform. Abstaining from these platforms can and will lead (in my experience) to social isolation. The problem is, that they are less of "neutral platforms" and more of designed environments which make us the player in a game that a) we did not consciously sign up for and b) we are forced to play by their rules. What I mean by that is that there's an ever increasing divergence between why we think we are visiting the platform and the interest that the platform owners have. We might be thinking that we visit nstagram in order to keep up to date with our friends, yet we stay for the immense dopamine-hits. And there are less and less ways around that. Just recently I restarted using Instagram and could not help but notice that auto-playing videos are omnipresent. Immediately upon opening either the app or the website you will get a video (/ "short" / "reel") playing in your face. Not surprising: you will not find any possibility to deactivate the auto-play feature. You are forced to consume the app's algorithm-curated and hyper-personalized content in this friction-less, unsolicited "feeding".
 
 ## The Solution
 
 In this post I want to talk about some little tricks that I have found to be very effective in giving us back a little of agency.
 
-What this post shows is how you can **disable videos in the instagram feed** as well as make youtube really only be a video-playing platform; removing **suggestions and comments from youtube videos**.
+What this post shows is how you can **disable videos in the Instagram feed** as well as make youtube really only be a video-playing platform; removing **suggestions and comments from youtube videos**.
 
 We will do that by the power of extending the original use case of adblockers and turning them into an empowering tool of control against the design of these services.
 
@@ -41,7 +41,7 @@ There you can paste the following:
 
 ```
 ! Hides video elements on Instagram that are not in stories
-instagram.com##article video
+Instagram.com##article video
 
 ! Hides most of youtube's recommendations (like shorts etc)
 youtube.com##div#dismissible
