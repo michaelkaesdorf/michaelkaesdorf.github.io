@@ -4,9 +4,9 @@ title:  "Dopamine-Aware Browsing"
 tags: dopamine
 ---
 
-In this post I want to show you some little tricks that I have found to be very effective in helping me preserve my dopamine-level while browsing the internet.
+In this post I want to talk about some little tricks that I have found to be very effective in helping me preserve my dopamine-level while browsing the internet.
 
-What this post shows is how you can disable videos in the instagram feed as well as make youtube really only be a video-playing platform; removing suggestions and comments.
+What this post shows is how you can **disable videos in the instagram feed** as well as make youtube really only be a video-playing platform; removing **suggestions and comments from youtube videos**.
 
 First an foremost we need to use the brave browser and/or any adblock extension that works with adblock/uBlock origin syntax.
 Visit to the filter settings; you can do that via this url: [brave://settings/shields/filters](brave://settings/shields/filters).
