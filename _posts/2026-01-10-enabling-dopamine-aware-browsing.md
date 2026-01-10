@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dopamine-Aware Browsing"
+title:  "Enabling Dopamine-Aware Browsing"
 tags: dopamine
 ---
 
