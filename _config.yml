@@ -1,7 +1,7 @@
-title: Michael Käsdorf | Web Development
+title: Michael Käsdorf | Personal Blog
 author: 
   name: Michael Käsdorf
-description: Software Engineering in the realm of .NET & Identity
+description: Personal Blog
 remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme

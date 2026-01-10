@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a German C#/.NET software engineer interested in web development, application security and Identity and Access Management (IAM). My favourite technologies and standards are ASP.NET Core, Azure, OpenID Connect and OAuth.
+Hi, my name is Michael Käsdorf. I am a German C#/.NET software engineer. I am interested in media, its usage and the effects that is has on us. On this blog I post things that I find interesting to talk about. 
 
 ## Find Me Online
 
