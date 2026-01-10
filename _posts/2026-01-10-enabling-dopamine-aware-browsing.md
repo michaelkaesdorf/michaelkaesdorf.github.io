@@ -61,4 +61,4 @@ Enjoy!
 
 
 ---
-¹: and/or any adblock extension that works with adblock/uBlock origin syntax
+¹: and/or any adblock extension that works with [adblock/uBlock origin syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
