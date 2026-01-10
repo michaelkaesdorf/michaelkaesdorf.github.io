@@ -23,11 +23,12 @@ Then, we will set a custom html filter. You can do that  and scrolling down to t
 There you can paste the following:
 
 ```
+instagram.com##article video
 youtube.com##div#dismissible
-youtube.com##div#contents
 youtube.com##ytd-reel-shelf-renderer
 youtube.com##ytd-watch-next-secondary-results-renderer
 youtube.com##div.ytp-fullscreen-grid-stills-container
+youtube.com##.ytd-comments
 ```
 
 Enjoy!
