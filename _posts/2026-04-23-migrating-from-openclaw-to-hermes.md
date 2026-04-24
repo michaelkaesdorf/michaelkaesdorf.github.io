@@ -4,7 +4,7 @@ title:  "Migrating from OpenClaw to Hermes"
 tags: openclaw, hermes, hermes-agent, nousresearch
 ---
 
-![An image of the terminal process installing Hermes Agent of Nous Research](/assets/2026-04-24/hermes-install.png)
+![An image of the terminal process installing Hermes Agent of Nous Research](/assets/2026-04-23/hermes-install.png)
 
 So after just a few days of experimentation I decided to move from OpenClaw to Hermes.
 
@@ -26,7 +26,7 @@ So, I saw that there is a command to migrate:
 Knowing this, I went into the install.
 But the installer already has some migration capabilities:
 
-![Hermes install process prompting: OpenClaw installation detected](/assets/2026-04-24/openclaw-installation-detected.png)
+![Hermes install process prompting: OpenClaw installation detected](/assets/2026-04-23/openclaw-installation-detected.png)
 
 If you choose yes here, you will get conflicts in the migration process later on. So I advise against it.
 
@@ -37,6 +37,6 @@ So, let's go:
 hermes claw migrate --preset full --yes
 ```
 
-![Hermes migration finished](/assets/2026-04-24/migration-finished.png)
+![Hermes migration finished](/assets/2026-04-23/migration-finished.png)
 
 Well... now we only still need to bring all the agents to hermes. I seem to notice: The Hermes mental model is more focused on one single orchestrator agent; not so much on parallel "main" agents? Hm, that's kind of a bummer. I still need some time to confirm that. For now I will leave it be and return later.
