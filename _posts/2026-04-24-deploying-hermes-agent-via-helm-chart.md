@@ -37,3 +37,10 @@ helm uninstall hermes-test
 ```
 
 That's enough for today. What we will do next is to fill the helm chart with life.
+
+
+As a summary:
+
+Q: There is a nousresearch/hermes-agent Docker image. What benefit do I get from wrapping a Helm chart around it?
+A: The Helm chart let's me redeploy the agent easily and quickly. it is helping me to consistently handle variables and secrets, kubernetes style.
+Goal is: be able to spin up a new hermes agent quickly and safely. Also, in the long stretch, I want to experiment with the interplay between hermes and oauth. So I will probably deploy a keycloak as well. And kubernetes is great to give me some plug-and-play experience here.
