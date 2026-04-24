@@ -4,7 +4,7 @@ title:  "Deploying Hermes Agent via Helm Chart"
 tags: openclaw, hermes, hermes-agent, nousresearch, helm, helmchart, k8s, k3s, kubernetes
 ---
 
-![Terminal output of helm tree](/assets/2026-04-24/helm-tree.png)
+![Terminal output of helm tree](/assets/2026-04-24/helm-tree-00.png)
 
 Now, after some experimentation with Hermes and OpenClaw, I thought the next smart step would be to think about how to deploy it more safely (and flexibly!).
 You know what made me think that? The fact that the mental model of Hermes might not align so well with multi-agent thinking. So I thought: why not create a set-up where you can spin up a new Hermes agent quickly? And anyway, there's always something valuable to learn if you dive into kubernetes stuff (at least for me).
@@ -36,11 +36,16 @@ Looking good! So let's remove it for now again:
 helm uninstall hermes-test
 ```
 
-That's enough for today. What we will do next is to fill the helm chart with life.
 
-
-As a summary:
+**As a small reminder in between:**
 
 Q: There is a nousresearch/hermes-agent Docker image. What benefit do I get from wrapping a Helm chart around it?
+
 A: The Helm chart let's me redeploy the agent easily and quickly. it is helping me to consistently handle variables and secrets, kubernetes style.
 Goal is: be able to spin up a new hermes agent quickly and safely. Also, in the long stretch, I want to experiment with the interplay between hermes and oauth. So I will probably deploy a keycloak as well. And kubernetes is great to give me some plug-and-play experience here.
+
+So - back to the good stuff. The current tree of the chart looks like this:
+
+![Terminal output of helm tree after some modifications](/assets/2026-04-24/helm-tree-01.png)
+
+I will upload the chart as soon as it is finished for you to download if you like.
